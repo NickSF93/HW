@@ -144,7 +144,7 @@ void UpdateGame(float elapsed, Entity* p1, Entity* p2, Entity* ball, bool &p1Win
 	if (ball->getX() < -1.6)
 	{
 		p2Win = true;
-		//reset ball on p2 top side to show p1 won the round
+		//reset ball on p2 top side to show p2 won the round
 		ball->setX(1.0);
 		ball->setY(.7);
 		ball->setXDirection(ball->getDirectionX());
